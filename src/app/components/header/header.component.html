@@ -1,0 +1,7 @@
+<header>
+  <ul>
+    <li *ngFor="let item of nav">
+      <a [routerLink]="item.path">{{item.title}}</a>
+    </li>
+  </ul>
+</header>

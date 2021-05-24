@@ -1,0 +1,9 @@
+.repos {
+  display: flex;
+  flex-wrap: wrap;
+
+  app-card {
+    flex: 0 0 33.33333%;
+    margin-bottom: 10px;
+  }
+}

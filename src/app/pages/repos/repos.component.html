@@ -1,0 +1,7 @@
+<div class="container">
+  <app-loader *ngIf="loading"></app-loader>
+
+  <div class="repos" *ngIf="!loading">
+    <app-card *ngFor="let repo of repos" [repo]="repo"></app-card>
+  </div>
+</div>
