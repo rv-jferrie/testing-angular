@@ -7,7 +7,7 @@ import { ReposService } from 'src/app/services/repos.service';
   styleUrls: ['./repos.component.scss']
 })
 export class ReposComponent implements OnInit {
-  repos = [];
+  repos: any = [];
   loading = true;
 
   constructor(private reposService: ReposService) { }
